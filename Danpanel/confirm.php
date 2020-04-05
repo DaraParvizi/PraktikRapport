@@ -17,7 +17,7 @@ if(!$result){
     if(mysqli_num_rows($result) > 0){
         $sql = " UPDATE users SET emailConfirmed=1 , token='' WHERE email='$email'";
        
-        echo "din email er blevet verified!";
+        echo "din email er blevet aktiviret!";
        
     }
     else{
